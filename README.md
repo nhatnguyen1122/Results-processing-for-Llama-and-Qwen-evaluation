@@ -3,8 +3,8 @@
 ## 1. check_data.py
 Checks whether there are any missing values.
 
-## 2. box_plot
-Contains a generate_box_plots.py file to implement box plots for each model across 7 criterias.
+## 2. box_plot 
+Contains a generate_box_plots.py file to implement box plots for each model across 7 criterias. (not really suitable due to the discrete property of the scoring)
 
 ## 3. mean_std_plot
 Contains a generate_mean_std_plots.py for plotting the mean and standard deviation of each criteria in each model.
