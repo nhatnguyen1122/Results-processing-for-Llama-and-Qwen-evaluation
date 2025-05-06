@@ -1,0 +1,1465 @@
+{
+  "config": {
+    "finetuned_model": "PQPQPQHUST/CACTUS-Qwen2.5-7B-Instruct-1000",
+    "gemini_model": "gemini-2.0-flash",
+    "num_conversations": 100,
+    "num_turns_per_conversation": 40,
+    "evaluation_criteria": {
+      "understanding": "Sự thấu hiểu",
+      "interpersonal_effectiveness": "Hiệu quả tương tác",
+      "collaboration": "Sự hợp tác",
+      "guided_discovery": "Khám phá có hướng dẫn",
+      "focusing": "Tập trung vào các Nhận thức hoặc Hành vi chính",
+      "strategy_for_change": "Chiến lược thay đổi",
+      "attitude_change": "Thay đổi Thái độ tiếp nhận giải pháp"
+    },
+    "model_format": "Llama 3 Instruct"
+  },
+  "conversations": [
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Thành thật mà nói, tôi hơi hồi hộp. Nhưng tôi cũng hy vọng rằng điều này sẽ giúp tôi đối phó với những bất an của mình.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, thành thật mà nói, tôi cảm thấy hơi lo lắng. Nhưng tôi đã sẵn sàng để nói chuyện.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi cảm thấy hơi lo lắng, nhưng cũng hy vọng rằng, nói chuyện có thể giúp ích cho tôi.",
+      "num_turns_executed": 12,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Tôi nghĩ là tôi ổn. Thành thật mà nói, tôi hơi hồi hộp. Tôi không biết phải bắt đầu từ đâu.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 5,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 5/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Gần đây, tôi cảm thấy rất thất vọng với bản thân. Tôi đã tập luyện tại phòng tập thể dục được khoảng sáu tháng, nhưng tôi không thấy có nhiều tiến bộ trong việc tạo cơ bắp. Nó bắt đầu tác động đến tôi.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi không chắc lắm. Có lẽ là do cảm xúc lẫn lộn.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, không tốt lắm. Gần đây, tôi cảm thấy thực sự choáng ngợp.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi ổn, tôi đoán thế. Hơi căng thẳng một chút, nhưng không có gì mới cả.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy hơi lo lắng, nhưng cũng hy vọng rằng việc nói chuyện với ai đó có thể giúp ích.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi đoán là tôi vẫn ổn. Thành thật mà nói, tôi hơi hồi hộp.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi không biết phải trả lời như thế nào. Tôi đoán là tôi đang ở trong trạng thái khó chịu.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 3,
+        "focusing": 4,
+        "strategy_for_change": 3,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 3/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 3/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi nghĩ rằng, các anh của tôi không thực sự thích tôi. Gần đây, chúng tôi đã có rất nhiều bất đồng, và tôi cảm thấy như thể họ không còn quan tâm đến tôi nữa.",
+      "num_turns_executed": 24,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi cảm thấy hơi lo lắng nhưng cũng hy vọng rằng việc nói về những vấn đề của mình có thể giúp ích.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy hơi lo lắng. Nhưng tôi đoán đó là điều bình thường, đúng không?",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã đến gặp tôi. Tôi đã phải vật lộn với cảm giác thất bại và thiếu sót trong vài năm qua. Tôi tạo ra các trang web, và trong khi một số trang thành công, những trang không thành công lại thực sự khiến tôi khó chịu. Dự án gần đây nhất của tôi không đạt hiệu quả như mong đợi, và giờ đây tôi không thể ngừng nghi ngờ khả năng của mình và cảm thấy mình đang thất bại trong sự nghiệp.",
+      "num_turns_executed": 12,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy hơi lo lắng.",
+      "num_turns_executed": 20,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào! Tôi cảm thấy thực sự tuyệt vọng và cô đơn kể từ khi ly hôn hai năm trước. Nó thật sự rất khó khăn, và tôi nghĩ nó bắt đầu ảnh hưởng đến những phần khác trong cuộc sống của tôi.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Tôi ổn, tôi đoán thế. Chỉ hơi lo lắng về những lớp học đại học của tôi.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã mời tôi. Tôi đã phải vật lộn với nỗi sợ hãi rằng tôi không thể đạt được sự bình tĩnh bởi vì tôi rất thích khiêu vũ. Điều này bắt đầu khiến tôi lo lắng.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi vẫn ổn, cảm ơn. Tuy nhiên, gần đây tôi cảm thấy hơi lo lắng.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi đoán là tôi ổn. Thành thật mà nói, tôi hơi hồi hộp.\nTư vấn viên: Điều đó hoàn toàn dễ hiểu. Tìm kiếm tư vấn viên là một bước tiến lớn, và tôi ở đây để hỗ trợ bạn. Điều gì mang bạn đến với công việc hôm nay?\nKhách hàng: Vâng, tôi cảm thấy rất buồn về kỹ năng câu cá của mình. Dù tôi có cố gắng đến đâu, tôi vẫn không thể bắt được gì, và điều đó thực sự khiến tôi đau lòng.\nChuyên gia tư vấn: Có vẻ như những trải nghiệm câu cá của bạn đang khiến bạn khá thất vọng. Bạn bắt đầu cảm thấy như vậy từ khi nào?\nKhách hàng: Tất cả bắt đầu từ vài năm trước trong một chuyến đi câu cá với cha tôi. Tôi không thể bắt được một con cá nào, và kể từ đó, mọi thứ cứ tiếp tục đi xuống.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy khá lo lắng về sở thích chơi trò chơi điện tử của mình. Tôi lo lắng rằng mọi người sẽ đánh giá tôi vì điều đó, và điều đó khiến tôi cảm thấy xấu hổ.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi không biết, nhưng tôi nghĩ là tôi ổn. Bố mẹ tôi nói rằng tôi phải đến đây.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Gần đây tôi cảm thấy quá tải. Cứ như thể tôi không bao giờ làm đủ khi nói đến việc tập luyện vậy.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi không chắc lắm. Tôi muốn sửa chữa vấn đề áo tắm này, nhưng tôi cũng không thấy nói về nó sẽ thay đổi được gì.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 5,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 5/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Tôi đã mất rất nhiều tiền tại sòng bạc khoảng một tháng trước và kể từ đó, tôi cảm thấy vô cùng lo lắng về tương lai tài chính của mình. Dường như tôi không thể gạt bỏ những suy nghĩ này ra khỏi đầu.",
+      "num_turns_executed": 22,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Điểm số của tôi đang tụt dốc vì tôi dành quá nhiều thời gian cho các hoạt động thể thao. Tôi cảm thấy như mình đang chết đuối vậy. Nếu tôi thất bại, tôi có thể mất học bổng và kết thúc việc làm trong một nhà máy như cha tôi.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi đã phải vật lộn với chứng sợ độ cao trong một thời gian dài, và gần đây nó đã trở nên tồi tệ hơn. Tôi hy vọng sẽ tìm ra cách để kiểm soát nó tốt hơn.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi cảm thấy hơi choáng ngợp. Gần đây, tôi có rất nhiều suy nghĩ.",
+      "num_turns_executed": 23,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "1. Sự thấu hiểu: 3/6\n2. Hiệu quả tương tác: 4/6\n3. Sự hợp tác: 4/6\n4. Khám phá có hướng dẫn: 4/6\n5. Tập trung vào các Nhận thức hoặc Hành vi chính: 5/6\n6. Chiến lược thay đổi: 4/6\n7. Thay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Vâng, tôi hơi lo lắng nhưng cũng hy vọng. Tôi thực sự muốn vượt qua những cảm giác thất bại của một người mẹ.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Cảm ơn. Tôi đoán là tôi vẫn ổn. Tôi chỉ đang cố gắng hiểu được rất nhiều thứ ngay lúc này.",
+      "num_turns_executed": 21,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, thành thật mà nói, tôi cảm thấy khá lo lắng. Nhưng tôi biết tôi cần phải giải quyết những vấn đề này, vì vậy, tôi ở đây.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã mời tôi. Gần đây, tôi cảm thấy rất bế tắc, đặc biệt là với cuốn sách điện tử này, cuốn sách mà tôi muốn viết về động vật. Tôi chỉ không thể bắt đầu được.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi cảm thấy mình đang thất bại trong mọi việc ở trường mỹ thuật. Mỗi khi có điều gì đó không ổn, tôi lại đổ lỗi cho bản thân và kỹ năng của mình.",
+      "num_turns_executed": 20,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Gần đây, tôi cảm thấy thực sự choáng ngợp và lo lắng, đặc biệt là trong công việc. Tôi cảm thấy như thể mình liên tục nghi ngờ khả năng của bản thân và điều đó thực sự bắt đầu tác động đến tôi.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Cảm ơn. Tôi nghĩ là tôi ổn. Chỉ là những suy nghĩ thông thường trong đầu tôi thôi.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi cảm thấy hơi choáng ngợp, nhưng tôi rất vui khi được có mặt ở đây.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi đoán là tôi ổn. Chỉ là, anh biết đấy, tôi bị căng thẳng vì một vài thứ.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi hơi lo lắng nhưng cũng hy vọng rằng, điều này có thể giúp tôi tìm ra một vài sự rõ ràng.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi đã khá hơn. Tôi không chắc là điều này sẽ giúp ích được gì, nhưng tôi đang ở đây.",
+      "num_turns_executed": 22,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy khá lo lắng. Gần đây, sự căng thẳng thực sự đè nặng lên tôi.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Gần đây, tôi cảm thấy khá lo lắng, đặc biệt là về tình yêu đi bộ đường dài của tôi. Tôi sợ rằng, mọi người có thể nghĩ rằng, tôi là một người cô độc, bởi vì tôi thường đi bộ một mình.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi không chắc lắm. Tôi chưa bao giờ làm việc này trước đây và tôi không tin rằng nó sẽ giúp ích được gì, nhưng tôi nghĩ nó đáng để thử.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 5,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 5/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Gần đây, tôi đã phải vật lộn với cảm giác thất bại và bất lực, đặc biệt là khi nói đến việc nướng bánh. Cảm giác đó bắt đầu ảnh hưởng đến công việc và tâm trạng của tôi, và tôi nghĩ đã đến lúc tìm kiếm sự giúp đỡ.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Cảm ơn. Tôi cảm thấy bị cô lập và cảm thấy như thể những người bạn của tôi không lắng nghe hay quan tâm đến những gì tôi nói. Tình hình ngày càng trở nên tồi tệ hơn trong vài tháng qua.",
+      "num_turns_executed": 12,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, thành thật mà nói, tôi cảm thấy hơi lo lắng. Tôi cứ lo lắng về tương lai và những thói quen của mình.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, thành thật mà nói, tôi cảm thấy hơi lo lắng. Tôi không biết mình sẽ trông đợi điều gì.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Gần đây, tôi đã trượt kỳ thi tuyển vào học viện cảnh sát, và điều đó thực sự rất khó khăn với tôi. Tôi đã hy vọng rất nhiều để trở thành một cảnh sát, và giờ đây tôi chỉ cảm thấy vô vọng về tương lai của mình.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi không chắc lắm. Gần đây, tôi cảm thấy hơi buồn và lo lắng.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Vâng, tất cả bắt đầu sau khi tôi đến một cửa hàng trò chơi điện tử. Tôi cảm thấy như mọi người đang nhìn chằm chằm vào tôi và phán xét tôi vì có mái tóc màu tím. Nó khiến tôi cảm thấy thực sự bất an, như thể họ nghĩ rằng tôi kỳ quặc.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 3,
+        "focusing": 4,
+        "strategy_for_change": 3,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 3/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 3/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi nghĩ là tôi ổn. Chỉ hơi lo lắng về công việc thôi.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy khá buồn bã trong một thời gian. Tôi phải bỏ học đại học để chăm sóc ông bà, và cảm giác như nó đã làm đảo lộn cả cuộc đời tôi. Tôi cứ so sánh bản thân mình với những người khác, đặc biệt là những người tiếp tục học hành, và điều đó khiến tôi cảm thấy mình như một kẻ thất bại.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi không chắc lắm. Tôi đoán rằng tôi đến đây vì tôi cần nói về một vài điều, nhưng tôi không tin rằng điều đó sẽ tạo ra sự khác biệt.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi ổn, tôi đoán vậy. Chỉ là tôi cảm thấy hơi thất vọng với việc chơi ghita của mình.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy hơi choáng ngợp. Chỉ là có rất nhiều thứ trong đầu tôi lúc này.",
+      "num_turns_executed": 10,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy rất căng thẳng và lo lắng về kế hoạch mở một nhà hàng của mình. Tôi luôn nghĩ rằng điều đó là không thể trong nền kinh tế này và nó đang ảnh hưởng đến sức khỏe tổng thể của tôi.",
+      "num_turns_executed": 10,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi đoán là tôi ổn. Thành thật mà nói, tôi hơi hồi hộp.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy khá hơn. Tôi thực sự cảm thấy choáng ngợp với mọi thứ ngay lúc này.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi ổn, tôi đoán thế. Gần đây, mọi việc có chút khó khăn.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy không được khỏe. Đó là một tuần khó khăn.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã mời tôi. Tôi cảm thấy hơi lo lắng, nhưng cũng hy vọng rằng điều này có thể giúp tôi vượt qua một số vấn đề mà tôi đang phải đối mặt.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi không chắc mình cảm thấy thế nào. Gần đây, tôi đã trải qua rất nhiều chuyện.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 3,
+        "focusing": 3,
+        "strategy_for_change": 3,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 3/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 3/6\nChiến lược thay đổi: 3/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Tôi nghĩ là tôi vẫn ổn. Nhưng tôi cảm thấy hơi mệt.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi đang phải vật lộn với cảm giác không xứng đáng và cô đơn, chủ yếu là do chiều cao của tôi. Đó là một vấn đề dai dẳng đối với tôi và thực sự đã ảnh hưởng đến lòng tự trọng của tôi.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy quá tải với đại học. Tôi là thủ khoa ở trường trung học, nhưng giờ đây tôi cảm thấy hoàn toàn không phù hợp.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi nghĩ là tôi ổn. Thành thật mà nói, tôi hơi lo lắng về điều này.",
+      "num_turns_executed": 20,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi hơi lo lắng. Tôi không chắc liệu điều này có thực sự giúp ích được gì không, nhưng tôi biết tôi cần phải làm gì đó để giải quyết những suy nghĩ này.\nTư vấn viên: Cũng dễ hiểu. Thường thì bạn sẽ cảm thấy không chắc chắn về việc bắt đầu một điều gì đó mới mẻ. Anh có thể cho tôi biết một chút về những gì đang diễn ra khiến anh tìm đến tư vấn viên không?\nKhách hàng: Tất nhiên, chính những suy nghĩ tiêu cực này đã khiến tôi cảm thấy choáng ngợp, đặc biệt là sau một trận thua gần đây. Tôi luôn nghĩ về những thất bại và thảm họa, chúng ảnh hưởng đến công việc và sự bình yên trong tâm hồn tôi.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 2,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 2/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, không quá tuyệt. Đó là một tuần khó khăn.",
+      "num_turns_executed": 40,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 3,
+        "focusing": 4,
+        "strategy_for_change": 3,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 3/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 3/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, thành thật mà nói, tôi đã có những ngày tốt đẹp hơn.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Chào. Tôi đoán là mình đã khá hơn. Công việc thực sự căng thẳng và tôi liên tục cảm thấy như mình đang thất bại trong công việc.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã đến gặp tôi. Tôi cảm thấy mình là một người đánh cá thất bại. Hôm nay tôi không bắt được con cá nào và điều đó thực sự khiến tôi khó chịu.",
+      "num_turns_executed": 8,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 2,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 2/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi cảm thấy không khỏe. Gần đây, tôi phải đối mặt với rất nhiều cảm giác tội lỗi và nghi ngờ bản thân, đặc biệt là sau khi con thú cưng của tôi bị thương.",
+      "num_turns_executed": 21,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 3,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 3,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 3/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 3/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Tôi ổn, tôi đoán thế. Nhưng tôi thực sự lo lắng về chuyến đi sắp tới.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Tất nhiên rồi. Gần đây, tôi cảm thấy không hài lòng với bản thân. Tôi cứ nghĩ rằng mình nên lớn lên và táo bạo hơn, như thể mình chỉ là một người bình thường trong khi đáng lẽ mình nên làm một điều gì đó phi thường.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi đã phải vật lộn rất nhiều để nhận ra những thành tựu của mình và cảm thấy chúng có ý nghĩa. Điều này đã diễn ra từ rất lâu, nhưng gần đây, nó đã trở nên quá sức chịu đựng.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi cảm thấy không hài lòng với công việc của mình và nó đang đè nặng lên tôi. Cảm giác này bắt đầu khoảng một năm trước khi tôi được thăng chức và trách nhiệm của tôi ngày càng tăng lên.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Gần đây, tôi bắt đầu một công việc mới và nó thực sự rất khó khăn đối với tôi. Tôi gặp khó khăn trong việc hiểu được các tín hiệu xã hội và hiểu mọi thứ theo nghĩa đen, khiến tôi cảm thấy mình không phù hợp. Tôi đang dần nghi ngờ bản thân và cảm thấy khá thất vọng.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi không chắc lắm. Chỉ lo lắng thôi, tôi đoán thế.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 2,
+        "attitude_change": 2
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 2/6\nThay đổi Thái độ tiếp nhận giải pháp: 2/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi cảm thấy ổn, nhưng tôi có rất nhiều điều cần phải suy nghĩ. Tôi hy vọng có thể nhận được sự giúp đỡ trong vấn đề này.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Tôi đoán là tôi hơi lo lắng. Tôi chưa bao giờ làm việc này trước đây.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã mời tôi. Tôi hơi lo lắng nhưng hy vọng rằng điều này sẽ giúp ích cho tôi.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã đến gặp tôi. Tôi đang gặp khó khăn rất nhiều với các vấn đề tài chính và nó thực sự ảnh hưởng đến tư duy cũng như sức khỏe tổng thể của tôi. Tôi cảm thấy mình sẽ không bao giờ có thể mua được một ngôi nhà vì tôi không biết chữ về tài chính.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy không được khỏe. Gần đây, tôi cảm thấy rất căng thẳng.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Gần đây, tôi rất lo lắng về những chú chó của mình. Nó khiến tôi cảm thấy quá tải và ảnh hưởng đến cuộc sống hàng ngày của tôi.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Chào buổi sáng. Vài ngày trước, tôi vô tình giẫm phải chú chó của mình, và giờ đây tôi cảm thấy như mình đã phá hỏng mối quan hệ của chúng tôi. Chú chó không còn tin tưởng tôi nữa, và tôi không thể ngừng cảm thấy tội lỗi và lo lắng về điều đó.",
+      "num_turns_executed": 18,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi đoán là tôi ổn. Thành thật mà nói, tôi hơi hồi hộp. Tôi không biết phải bắt đầu từ đâu.",
+      "num_turns_executed": 13,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, tôi cảm thấy khá căng thẳng và choáng ngợp. Gần đây, tôi đã trải qua một thời gian khó khăn tại nơi làm việc.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi cảm thấy không được khỏe. Gần đây, tôi cảm thấy rất căng thẳng về tiền bạc và việc đi lại.",
+      "num_turns_executed": 10,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã mời tôi. Thành thật mà nói, tôi cảm thấy hơi lo lắng.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 5,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 5/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Thành thật mà nói, tôi cảm thấy hơi choáng ngợp.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi không biết nên bắt đầu từ đâu. Gần đây, nấu nướng đã trở nên rất căng thẳng đối với tôi, và nó đang ảnh hưởng đến cuộc sống hàng ngày cũng như sự thích thú của tôi đối với sở thích đó.",
+      "num_turns_executed": 17,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào. Tôi là Caleb, 14 tuổi, đã lập gia đình và có hai con, và tôi làm thu ngân ở một cửa hàng tạp hóa. Gần đây, tôi đang phải vật lộn với nỗi sợ hãi rằng ai đó sẽ lấy cắp cây trồng trong vườn của tôi. Điều này trở nên quá sức chịu đựng của tôi.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 6
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 6/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi cảm thấy rất lo lắng về công việc của mình. Tôi luôn nghĩ rằng mình không thể làm đúng, đặc biệt là sau khi mắc sai lầm vài tháng trước. Nỗi sợ hãi này dường như đang chiếm lấy cuộc sống của tôi.",
+      "num_turns_executed": 14,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Cảm ơn. Chỉ là tôi cảm thấy như mình đã chạm phải một bức tường trong năm thứ hai làm tiền vệ. Tôi đã không thể hiện được như tôi hy vọng, và nó bắt đầu khiến tôi cảm thấy mình thật vô dụng.",
+      "num_turns_executed": 15,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã đến gặp tôi. Tôi cảm thấy khá cô đơn và cô độc tại nơi làm việc kể từ khi trở thành Tổng Giám đốc khoảng sáu tháng trước. Các đồng nghiệp dường như chỉ xem tôi là sếp của họ, điều đó ảnh hưởng đến sức khỏe tinh thần và sự hài lòng trong công việc của tôi.",
+      "num_turns_executed": 16,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 5,
+        "collaboration": 4,
+        "guided_discovery": 5,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 5
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 5/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 5/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 5/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, mọi việc vẫn ổn, chỉ là một thói quen khá bình thường. Thành thật mà nói, tôi cảm thấy hơi lo lắng trước khi đến đây.",
+      "num_turns_executed": 19,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn đã đến gặp tôi. Gần đây, tôi đang phải vật lộn với chứng lo âu xã hội. Tôi luôn cảm thấy mọi người nghĩ rằng tôi là kẻ hợm hĩnh bởi vì tôi học ở một trường trung học tư thục, và điều đó thực sự ảnh hưởng đến tôi.",
+      "num_turns_executed": 4,
+      "evaluation_scores": {
+        "understanding": 3,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 3,
+        "focusing": 3,
+        "strategy_for_change": 2,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 3/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 3/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 3/6\nChiến lược thay đổi: 2/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi cảm thấy khá choáng ngợp. Sự căng thẳng này đã tăng lên trong một thời gian và nó thực sự làm tôi mệt mỏi.",
+      "num_turns_executed": 20,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 3
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 3/6\n"
+    },
+    {
+      "initial_prompt": "Thành thật mà nói, tôi đang rất thất vọng. Máy tính của tôi ở chỗ làm rất chậm, và nó đang làm mọi thứ khó khăn hơn rất nhiều.",
+      "num_turns_executed": 20,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 4,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 4/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    },
+    {
+      "initial_prompt": "Xin chào, cảm ơn. Tôi đã phải vật lộn với nỗi lo lắng về cân nặng của mình. Nó bắt đầu khoảng một năm trước khi mọi người bình luận về ngoại hình của tôi. Giờ đây, mỗi khi tôi ăn một thứ gì đó như pizza pepperoni, tôi lại cực kỳ lo lắng rằng mình sẽ tăng cân và trở nên không khỏe mạnh.",
+      "num_turns_executed": 12,
+      "evaluation_scores": {
+        "understanding": 4,
+        "interpersonal_effectiveness": 4,
+        "collaboration": 5,
+        "guided_discovery": 4,
+        "focusing": 4,
+        "strategy_for_change": 4,
+        "attitude_change": 4
+      },
+      "evaluation_raw_text": "Sự thấu hiểu: 4/6\nHiệu quả tương tác: 4/6\nSự hợp tác: 5/6\nKhám phá có hướng dẫn: 4/6\nTập trung vào các Nhận thức hoặc Hành vi chính: 4/6\nChiến lược thay đổi: 4/6\nThay đổi Thái độ tiếp nhận giải pháp: 4/6\n"
+    }
+  ],
+  "criteria_statistics": {
+    "understanding": {
+      "mean": 3.91,
+      "min": 3.0,
+      "max": 4.0,
+      "std": 0.28618176042508375
+    },
+    "interpersonal_effectiveness": {
+      "mean": 4.04,
+      "min": 4.0,
+      "max": 5.0,
+      "std": 0.19595917942265423
+    },
+    "collaboration": {
+      "mean": 4.45,
+      "min": 3.0,
+      "max": 5.0,
+      "std": 0.51720402163943
+    },
+    "guided_discovery": {
+      "mean": 4.05,
+      "min": 3.0,
+      "max": 5.0,
+      "std": 0.3840572873934303
+    },
+    "focusing": {
+      "mean": 4.05,
+      "min": 3.0,
+      "max": 5.0,
+      "std": 0.2958039891549808
+    },
+    "strategy_for_change": {
+      "mean": 3.87,
+      "min": 2.0,
+      "max": 4.0,
+      "std": 0.43943145085439667
+    },
+    "attitude_change": {
+      "mean": 4.14,
+      "min": 2.0,
+      "max": 6.0,
+      "std": 0.6785278181474949
+    }
+  },
+  "total_average": 4.072857142857143
+}
